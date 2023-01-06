@@ -16,9 +16,7 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
-          headerStyle:{
-            elevation: 0
-          }
+          headerShown: false
         }}
       >
         <Stack.Screen name='ChatScreen' component={ChatScreen}/>

@@ -1,10 +1,11 @@
 import React from 'react'
 import { Text, View } from 'react-native'
+import HeaderChat from '../components/HeaderChat';
 
 const ChatScreen = () => {
   return (
     <View>
-        <Text>Chat Screen</Text>
+        <HeaderChat/>
     </View>
   )
 }
